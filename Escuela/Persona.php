@@ -1,6 +1,6 @@
 <?php
 
-namespace HolaMundo\Escuela;
+namespace Escuela;
 
 abstract class Persona
 {
