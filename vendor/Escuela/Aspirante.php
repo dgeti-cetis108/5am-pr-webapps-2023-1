@@ -1,10 +1,10 @@
 <?php
 // cuando un archivo php solo tiene código php, no es necesario
 // cerrar la etiqueta <?php con ? > de hecho no debes hacerlo
-namespace Escuela;
+namespace vendor\Escuela;
 
-require_once 'Persona.php';
-use Escuela\Persona;
+// require_once 'Persona.php';
+use vendor\Escuela\Persona;
 
 class Aspirante extends Persona
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Escuela;
+namespace vendor\Escuela;
 
-require_once 'Persona.php';
-use Escuela\Persona;
+// require_once 'Persona.php';
+use vendor\Escuela\Persona;
 
 class Estudiante extends Persona
 {

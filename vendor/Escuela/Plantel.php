@@ -1,5 +1,5 @@
 <?php
-namespace Escuela;
+namespace vendor\Escuela;
 
 class Plantel
 {

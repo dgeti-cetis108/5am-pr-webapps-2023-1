@@ -1,6 +1,6 @@
 <?php
 
-namespace Escuela;
+namespace vendor\Escuela;
 
 abstract class Persona
 {
@@ -10,6 +10,12 @@ abstract class Persona
     public $Genero;
     public $Curp;
     public $Domicilio;
+
+    // camelCase para los métodos
+    public function nombreCompleto()
+    {
+        return $this->Nombres." ".$this->PrimerApellido." ".$this->SegundoApellido;
+    }
 }
 
 // $persona = new Persona();

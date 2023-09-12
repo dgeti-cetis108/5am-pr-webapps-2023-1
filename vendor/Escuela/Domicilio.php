@@ -1,6 +1,6 @@
 <?php
 
-namespace Escuela;
+namespace vendor\Escuela;
 
 class Domicilio
 {
